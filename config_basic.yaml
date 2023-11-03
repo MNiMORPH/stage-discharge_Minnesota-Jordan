@@ -5,7 +5,7 @@ author: Andy Wickert
 
 data:
     # Filename expected with columns "Q", "Stage"
-    filename: 'MinnesotaJordan.tsv'
+    filename: 'MinnesotaJordan_BasicConfig.tsv'
     # tab, space, or comma
     delimiter: 'tab'
     # If data set uses US cfs (Q) and feet (Stage), converts these to metric.
