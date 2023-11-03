@@ -5,7 +5,7 @@ author: Andy Wickert
 
 data:
     # Filename expected with columns "Q", "Stage"
-    filename: 'MinnesotaJordan_BasicConfig.tsv'
+    filename: 'MinnesotaJordan.tsv'
     # tab, space, or comma
     delimiter: 'tab'
     # If data set uses US cfs (Q) and feet (Stage), converts these to metric.
@@ -23,7 +23,7 @@ channel:
 
 output:
     # CSV output file name
-    outfile: 'testout.csv'
+    outfile: 'doublemanning_params_MinnesotaJordan_basicInput.csv'
     # True/False Boolean flags
     plot: True
     verbose: True
