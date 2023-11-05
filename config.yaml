@@ -13,7 +13,7 @@ data:
 
 channel:
     # meters; if ommitted, will be solved for as a free variable
-    width: 80
+    width: 100
     # meters; if omitted, will be solved for as a free variable
     # depth:
     # unitless
@@ -27,8 +27,8 @@ bounds:
     # Estimated from clast count: 0.365
     # Range for mountain streams with gravel + few boulders: 0.03--0.05
     mannings_n_bounds:
-        - 0.01
-        - 0.04
+        - 0.03
+        - 0.06
     # Floodplain characteristics:
     # * Approximately rectangular
     # * 9 m wide (- channel = 6.5 m)
@@ -40,22 +40,22 @@ bounds:
     #    - 200
     floodplain_exponent_bounds:
         - 1
-        - 3
+        - 4
     stage_offset_bounds:
         # On Google Sheet, I have + 7 cm for 2020 onwards.
         # And 10 cm from the start, to which this is now referenced
         - -1
         - 1
     channel_depth_bounds:
-        - 3
+        - 4
         - 10
     #channel_width_bounds:
-    #    - 30
-    #    - 180
+    #    - 60
+    #    - 100
 
 output:
     # CSV output file name
     outfile: 'doublemanning_params_MinnesotaJordan_boundsSolve.csv'
     # True/False Boolean flags
-    plot: True
+    plot: False
     verbose: True
