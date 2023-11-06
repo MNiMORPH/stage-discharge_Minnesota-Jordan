@@ -27,7 +27,7 @@ bounds:
     # Estimated from clast count: 0.365
     # Range for mountain streams with gravel + few boulders: 0.03--0.05
     mannings_n_bounds:
-        - 0.03
+        - 0.025
         - 0.06
     # Floodplain characteristics:
     # * Approximately rectangular
