@@ -1,11 +1,5 @@
 cff-version: 1.2.0
 message: "Please cite this data set as below."
-references:
-  - authors:
-      - name: "United States Geological Survey"
-    title: "Minnesota River Near Jordan, MN - 05330000"
-    url: "https://waterdata.usgs.gov/monitoring-location/05330000/"
-    type: data
 authors:
 - family-names: "Jones"
   given-names: "Jabari"
@@ -13,6 +7,7 @@ authors:
 - family-names: "Wickert"
   given-names: "Andrew D."
   orcid: "https://orcid.org/0000-0002-9545-3365"
+- name: "United States Geological Survey"
 title: "Minnesota River near Jordan: stream-gauge data and double-Manning fit."
 version: 2023.12.10
 date-released: 2023-12-10
