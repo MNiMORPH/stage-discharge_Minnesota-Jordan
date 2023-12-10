@@ -9,7 +9,7 @@ references:
 authors:
 - family-names: "Jones"
   given-names: "Jabari"
-  orcid:" https://orcid.org/0000-0002-7399-6617"
+  orcid:"https://orcid.org/0000-0002-7399-6617"
 - family-names: "Wickert"
   given-names: "Andrew D."
   orcid: "https://orcid.org/0000-0002-9545-3365"
