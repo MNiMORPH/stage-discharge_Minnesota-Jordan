@@ -5,3 +5,5 @@ Rating curve data (stage and discharge) and double-Manning fit approach for the 
 
 * `MinnesotaJordan.tsv`: Paired stage and discharge measurements
 * `config.yaml`: Double-Manning configuration file
+* `config_fixed_Pfp.yaml`: The same configuration file, but fixing the floodplain exponent at 5/3
+* Output CSV files with parameter estimates
