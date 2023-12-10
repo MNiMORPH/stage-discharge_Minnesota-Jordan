@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10334289.svg)](https://doi.org/10.5281/zenodo.10334289)
+
 # stage-discharge_Minnesota-Jordan
 Rating curve data (stage and discharge) and double-Manning fit approach for the Minnesota River near Jordan
 
